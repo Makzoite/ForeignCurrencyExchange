@@ -22,7 +22,11 @@
 .App-link {
   color: #61dafb;
 }
-
+.labelTo{
+  line-height: 2;
+  font-weight: bold;
+  color: #6C757D;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

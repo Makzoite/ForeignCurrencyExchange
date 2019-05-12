@@ -87,13 +87,13 @@ class Home extends Component {
             <Form.Control placeholder="Currency Type" value={currencyType} onChange = {this.onTextBoxChangeCurrencyType} />
           </Col>
           <Col md="1.5">
-          <Form.Label>To</Form.Label>
+          <Form.Label className="labelTo">to</Form.Label>
           </Col>
           <Col>
             <Form.Control placeholder="Currency type to convert" value={currencyTypeToConvert} onChange = {this.onTextBoxChangeCurrencyTypeToConvert}/>
           </Col>
           <Col>
-          <Form.Control placeholder="Enter Currency" value={amountToConvert==0?"":amountToConvert} onChange = {this.onTextBoxChangeAmoutToConvert}/>
+          <Form.Control placeholder="Enter Currency" type="number" value={amountToConvert==0?"":amountToConvert} onChange = {this.onTextBoxChangeAmoutToConvert}/>
           </Col>
 
           <Col>
